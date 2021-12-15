@@ -35,8 +35,21 @@ templates:
         url_poster: <<poster>>
         sort_title: +++_<<collection_name>>
         collection_order: alpha       
+    imdb:
+        url_poster: <<poster>>
+        summary: <<summary>>
+        sync_mode: sync
+    Chart:
+        sort_title: +1_<<num>><<collection_name>>
+        sync_mode: sync
+        smart_label: random
+    Best of:
+        trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-<<year>>
+        sort_title: +1_Best of <<year>>
+        sync_mode: sync
+        summary: Rotten Tomatoes Best Movies of <<year>>
+        smart_label: audience_rating.desc
 
-collections:
 ###########################
 #    Genre Collections    #
 ###########################
@@ -170,6 +183,8 @@ collections:
       - https://www.imdb.com/list/ls027454200/
       - https://www.imdb.com/list/ls027886673/
       - https://www.imdb.com/list/ls097998599/
+      - https://www.imdb.com/list/ls066252180/
+      - https://www.imdb.com/list/ls031348568/
     summary: Christmas film is a genre that revolves around the plot involving Christmas.
   Halloween.:
     template: {name: Holiday, poster: https://theposterdb.com/api/assets/27316}
@@ -200,6 +215,10 @@ collections:
     template: {name: Movie, collection: 328, summary: 328, poster: https://theposterdb.com/api/assets/45080}
   Harry Potter:
     template: {name: Movie, collection: 1241, summary: 1241, poster: https://theposterdb.com/api/assets/737}
+  Marvel Cinematic Universe (Chronological Order):
+    template: {name: imdb, summary: "The Marvel Cinematic Universe (MCU) is an American media franchise and shared universe centered on a series of superhero films produced by Marvel Studios. The films are based on characters that appear in American comic books published by Marvel Comics. The franchise also includes television series, short films, digital series, and literature. The shared universe, much like the original Marvel Universe in comic books, was established by crossing over common plot elements, settings, cast, and characters.", poster: https://theposterdb.com/api/assets/879}
+    imdb_list:
+      - https://www.imdb.com/list/ls029032797/
 ###########################
 #    Decade Collections   #
 ###########################
@@ -233,9 +252,23 @@ collections:
   Trakt Trending:
     trakt_trending: 50
     sort_title: +++++++++_Trakt Trending
-###########################
-#      IMDb Top 250       #
-###########################
-  IMDb Top 250:
-    imdb_list: https://www.imdb.com/search/title/?groups=top_250&count=250&sort=user_rating,desc
-    sort_title: ++++++++_IMDb Top 250
+######################################################
+#                Chart Collections                   #
+######################################################
+  Top Rated:
+    template: { name: Chart, num: 4 }
+    imdb_list: https://www.imdb.com/search/title/?groups=top_250&count=250/
+    tmdb_top_rated: 250
+    summary: Top Rated Movies across the internet sorted by popularity
+  Best Picture Nominees:
+    template: { name: Chart, num: 5 }
+    imdb_list: https://www.imdb.com/list/ls009487211/?sort=moviemeter,asc&st_dt=&mode=simple&page=1&ref_=ttls_vw_smp
+    summary: Best Picture Oscar Nominees by Year
+  Best of 2014:
+    template: { name: Best of, year: 2014 }
+  Best of 2019:
+    template: { name: Best of, year: 2019 }
+  Best of 2020:
+    template: { name: Best of, year: 2020 }
+  Best of 2021:
+    template: { name: Best of, year: 2021 }
