@@ -1,0 +1,53 @@
+## This file is a template remove the .template to use the file
+
+libraries:              # Library mappings must have a colon (:) placed after them
+    Movies:
+        metadata_path:
+          - file: config/movies.yml
+          - file: config/holidays.yml
+    TV Shows:
+        metadata_path:
+          - file: config/tv.yml
+settings:                  # Can be individually specified per library as well
+    cache: true
+    cache_expiration: 60
+    asset_directory: config/assets
+    asset_folders: true
+    assets_for_all: false
+    sync_mode: append
+    show_unmanaged: true
+    show_filtered: false
+    show_missing: false
+    save_missing: true
+    run_again_delay: 2
+    missing_only_released: true
+    create_asset_folders: false
+    collection_minimum: 2
+    delete_below_minimum: true
+    tvdb_language: default
+    show_missing_assets: true
+    show_missing_season_assets: false
+    delete_not_scheduled: false
+    only_filter_missing: false
+    ignore_ids:
+    ignore_imdb_ids:
+plex:                       # Can be individually specified per library as well
+    url: http://192.168.0.201:32400
+    token: LptS-WMbTBESsRpV7JT7
+    timeout: 60
+    clean_bundles: false
+    empty_trash: false
+    optimize: false
+tmdb:
+    apikey: 0f2eb5fb1b659c51b473a6917e57ded9
+    language: en
+trakt:
+    client_id: 0e33454884fa7502ff1ead64d149660ce302a3c12263f354701b84b57a186894
+    client_secret: cece3be95dacd0caf3e75c58a7bfb687181e73bc0d6836c65335678688e62871
+    authorization:
+        access_token: 97c642a7466e578b1028a042a0ee8f3259c9a248914bb97b829a2f82248e6fb5
+        token_type: Bearer
+        expires_in: 7889237
+        refresh_token: 6eca925e49e5566834019e07f45e2f80fad978e618745b4554a493c96fccf782
+        scope: public
+        created_at: 1639540968
