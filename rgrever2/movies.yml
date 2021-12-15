@@ -50,6 +50,7 @@ templates:
         summary: Rotten Tomatoes Best Movies of <<year>>
         smart_label: audience_rating.desc
 
+collections:
 ###########################
 #    Genre Collections    #
 ###########################
