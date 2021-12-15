@@ -1,0 +1,62 @@
+templates:
+#####################################
+#    Custom Collection Templates    #
+#####################################
+  Holiday:
+    smart_label: title.asc
+    summary: "A timed collection of <<holiday>> movies and other movies that may relate to the holiday. NOTE: this collection will automatically disappear once the holiday period is over."
+    sort_title: '!!A'
+    visible_home: true
+    visible_shared: true
+
+
+collections:
+#####################################
+#        Holiday Collections        #
+#####################################
+  Valentine's Day Movies:
+    schedule: yearly(12/13)
+    template: {name: Holiday, holiday: "Valentine's Day"}
+    imdb_list:
+      - https://www.imdb.com/list/ls000094398/
+      - https://www.imdb.com/list/ls057783436/
+      - https://www.imdb.com/list/ls064427905/
+
+  St. Patrick's Day Movies:
+    schedule: yearly(12/13)
+    template: {name: Holiday, holiday: "St. Patrick's Day"}
+    imdb_list: https://www.imdb.com/list/ls063934595/
+
+  Thanksgiving Movies:
+    schedule: yearly(12/13)
+
+    template: {name: Holiday, holiday: Thanksgiving}
+    imdb_list:
+      - https://www.imdb.com/list/ls000835734/
+      - https://www.imdb.com/list/ls091597850/
+
+  Halloween Movies:
+    schedule: yearly(12/13)
+    template: {name: Holiday, holiday: Halloween}
+    sort_title: '!!B'
+    imdb_list:
+      - https://www.imdb.com/list/ls023118929/
+      - https://www.imdb.com/list/ls000099714/
+    tmdb_collection:
+      - 91361    # Halloween Collection
+      - 8581     # A Nightmare on Elm Street Collection
+      - 1733     # The Mummy Collection
+      - 8091     # Alien Collection
+    tmdb_movie:
+      - 23437    # A Nightmare on Elm Street (2010)
+
+  Christmas Movies:
+    schedule: yearly(12/13)
+    sort_title: '!!B'
+    template: {name: Holiday, holiday: Christmas}
+    imdb_list: https://www.imdb.com/list/ls000096828/
+
+  New Year's Day Movies:
+    schedule: yearly(12/13)
+    template: {name: Holiday, holiday: "New Year's Day Movies"}
+    imdb_list: https://www.imdb.com/list/ls066838460/
