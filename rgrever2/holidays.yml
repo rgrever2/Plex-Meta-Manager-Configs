@@ -35,7 +35,7 @@ collections:
       - https://www.imdb.com/list/ls091597850/
 
   Halloween Movies:
-    schedule: yearly(12/13)
+    schedule: range(10/01-11/03)
     template: {name: Holiday, holiday: Halloween}
     sort_title: '!!B'
     imdb_list:
@@ -50,7 +50,7 @@ collections:
       - 23437    # A Nightmare on Elm Street (2010)
 
   Christmas Movies:
-    schedule: yearly(12/13)
+    schedule: range(11/26-01/01)
     sort_title: '!!B'
     template: {name: Holiday, holiday: Christmas}
     imdb_list: https://www.imdb.com/list/ls000096828/
