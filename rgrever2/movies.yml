@@ -13,7 +13,6 @@ templates:
         sort_title: +_<<collection_name>>
         collection_order: alpha
     Other Genre:
-        sort_title: +3_<<collection_name>>
         url_poster: <<poster>>
         sync_mode: sync
         smart_label: random
