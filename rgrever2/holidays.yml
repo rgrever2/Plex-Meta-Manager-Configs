@@ -15,7 +15,7 @@ collections:
 #        Holiday Collections        #
 #####################################
   Valentine's Day Movies:
-    schedule: yearly(12/13)
+    schedule: range(02/01-02/15)
     template: {name: Holiday, holiday: "Valentine's Day"}
     imdb_list:
       - https://www.imdb.com/list/ls000094398/
@@ -23,13 +23,12 @@ collections:
       - https://www.imdb.com/list/ls064427905/
 
   St. Patrick's Day Movies:
-    schedule: yearly(12/13)
+    schedule: range(03/01-03/18)
     template: {name: Holiday, holiday: "St. Patrick's Day"}
     imdb_list: https://www.imdb.com/list/ls063934595/
 
   Thanksgiving Movies:
-    schedule: yearly(12/13)
-
+    schedule: range(11/01-11/31)
     template: {name: Holiday, holiday: Thanksgiving}
     imdb_list:
       - https://www.imdb.com/list/ls000835734/
@@ -57,6 +56,6 @@ collections:
     imdb_list: https://www.imdb.com/list/ls000096828/
 
   New Year's Day Movies:
-    schedule: yearly(12/13)
+    schedule: range(12/24-01/05)
     template: {name: Holiday, holiday: "New Year's Day Movies"}
     imdb_list: https://www.imdb.com/list/ls066838460/
