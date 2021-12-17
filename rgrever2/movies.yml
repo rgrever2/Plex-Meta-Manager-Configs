@@ -18,6 +18,12 @@ templates:
         smart_label: random
         sort_title: +_<<collection_name>>
     Holiday:
+        plex_search:
+           any:
+              title: <<collection_name>>
+              collection: <<collection_name>>
+              genre: <<collection_name>>
+              label: <<collection_name>>
         url_poster: <<poster>>
         sort_title: +_<<collection_name>>
         collection_order: release
