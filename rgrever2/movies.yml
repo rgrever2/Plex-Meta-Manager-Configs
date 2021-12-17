@@ -190,6 +190,7 @@ collections:
       - https://trakt.tv/users/pualani78/lists/christmas-2020
       - https://trakt.tv/users/veninjak/lists/complete-christmas-2021-copy
     imdb_list:
+      - https://www.imdb.com/list/ls000096828/
       - https://www.imdb.com/list/ls025976544/
       - https://www.imdb.com/list/ls003863000/
       - https://www.imdb.com/list/ls027454200/
@@ -198,7 +199,7 @@ collections:
       - https://www.imdb.com/list/ls066252180/
       - https://www.imdb.com/list/ls031348568/
     summary: Christmas film is a genre that revolves around the plot involving Christmas.
-  Halloween.:
+  Halloween:
     template: {name: Holiday, poster: https://theposterdb.com/api/assets/27316}
     imdb_list:
       - https://www.imdb.com/list/ls023118929/
