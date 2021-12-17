@@ -110,15 +110,15 @@ collections:
     template: {name: Genre, genre: Horror, poster: https://theposterdb.com/api/assets/51475}
     summary: Horror film is a genre that aims to create a sense of fear, panic, alarm, and dread for the audience. These films are often unsettling and rely on scaring the audience through a portrayal of their worst fears and nightmares. Horror films usually center on the arrival of an evil force, person, or event. Many Horror films include mythical creatures such as ghosts, vampires, and zombies. Traditionally, Horror films incorporate a large amount of violence and gore into the plot. Though it has its own style, Horror film often overlaps into Fantasy, Thriller, and Science-Fiction genres.
   Martial Arts:
-    template: {name: Genre, poster: https://theposterdb.com/api/assets/51773}
+    template: {name: Other Genre, poster: https://theposterdb.com/api/assets/69216}
     imdb_list:
-      - https://www.imdb.com/list/ls000099643/
-      - https://www.imdb.com/list/ls068611186/
-      - https://www.imdb.com/list/ls068378513/
-      - https://www.imdb.com/list/ls090404120/
+      - url: https://www.imdb.com/list/ls000099643/
+      - url: https://www.imdb.com/list/ls068611186/
+      - url: https://www.imdb.com/list/ls068378513/
+      - url: https://www.imdb.com/list/ls090404120/
     summary: Martial Arts film is a sub-genre of action films that feature numerous martial arts combat between characters. These combats are usually the films' primary appeal and entertainment value, and often are a method of storytelling and character expression and development. Martial Arts are frequently featured in training scenes and other sequences in addition to fights. Martial Arts films commonly include other types of action, such as hand-to-hand combat, stuntwork, chases, and gunfights.  
   Music:
-    template: {name: Genre, poster: https://theposterdb.com/api/assets/51398}
+    template: {name: Other Genre, poster: https://theposterdb.com/api/assets/69217}
     imdb_list:
     - url: https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=music
       limit: 200
@@ -132,7 +132,7 @@ collections:
     template: {name: Genre, genre: Mystery, poster: https://theposterdb.com/api/assets/53060}
     summary: A Mystery film centers on a person of authority, usually a detective, that is trying to solve a mysterious crime. The main protagonist uses clues, investigation, and logical reasoning. The biggest element in these films is a sense of “whodunit” suspense, usually created through visual cues and unusual plot twists.
   Pandemic:
-    template: {name: Genre, poster: https://theposterdb.com/api/assets/55837}
+    template: {name: Other Genre, poster: https://theposterdb.com/api/assets/69220}
     imdb_list: https://www.imdb.com/list/ls092321048/
     summary: A Pandemic film resolves around widespread viruses, plagues, and diseases.
   Romance:
@@ -161,7 +161,7 @@ collections:
       - https://www.imdb.com/list/ls049792208/
     summary: Stand-up comedy is a comedic style in which a comedian performs in front of a live audience, speaking directly to them through a microphone. Comedians give the illusion that they are dialoguing, but in actuality, they are monologuing a grouping of humorous stories, jokes and one-liners, typically called a shtick, routine, act, or set. Some stand-up comedians use props, music or magic tricks to enhance their acts. Stand-up comedians perform quasi-autobiographical and fictionalized extensions of their offstage selves.
   Sword & Sorcery:
-    template: {name: Genre, poster: https://theposterdb.com/api/assets/74604}
+    template: {name: Other Genre, poster: https://theposterdb.com/api/assets/74604}
     imdb_list: https://www.imdb.com/list/ls022909805
     summary: Sword and Sorcery film is a sub-genre of Fantasy that tend to be more plot-driven. These films rely on heavy action and battle scenes. Common themes in Sword and Sorcery films include a rescue mission, saving a princess, and battling a fantastical monster. The worlds and characters in these films are often much less developed than in other fantasy sub-genres. Of all the Fantasy sub-genres, Sword and Sorcery is most likely to be geared towards a younger audience, as many of these films are animated.
   Thriller:
