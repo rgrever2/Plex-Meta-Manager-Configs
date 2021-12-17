@@ -10,23 +10,23 @@ templates:
         plex_search:
           genre: <<genre>>
         url_poster: <<poster>>
-        sort_title: +++++++_<<collection_name>>
+        sort_title: +_<<collection_name>>
         collection_order: alpha
     Holiday:
         url_poster: <<poster>>
-        sort_title: +++++++_<<collection_name>>
+        sort_title: +_<<collection_name>>
         collection_order: release
     Studio:
         plex_search:
           studio: <<studio>>
         url_poster: <<poster>>
-        sort_title: +++++_<<collection_name>>
+        sort_title: ++_<<collection_name>>
         collection_order: alpha
     Movie:
         tmdb_collection: <<collection>>
         tmdb_summary: <<summary>>
         url_poster: <<poster>>
-        sort_title: ++++_<<collection_name>>
+        sort_title: <<collection_name>>
         collection_order: release
     Decade:
     # I was not able to find any posters i liked for decades 00 and 10, so i did not use the template. 
@@ -40,12 +40,12 @@ templates:
         summary: <<summary>>
         sync_mode: sync
     Chart:
-        sort_title: +1_<<num>><<collection_name>>
+        sort_title: +++++++++_<<num>><<collection_name>>
         sync_mode: sync
         smart_label: random
     Best of:
         trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-<<year>>
-        sort_title: +1_Best of <<year>>
+        sort_title: +++++++++1_Best of <<year>>
         sync_mode: sync
         summary: Rotten Tomatoes Best Movies of <<year>>
         smart_label: audience_rating.desc
@@ -220,6 +220,7 @@ collections:
     template: {name: imdb, summary: "The Marvel Cinematic Universe (MCU) is an American media franchise and shared universe centered on a series of superhero films produced by Marvel Studios. The films are based on characters that appear in American comic books published by Marvel Comics. The franchise also includes television series, short films, digital series, and literature. The shared universe, much like the original Marvel Universe in comic books, was established by crossing over common plot elements, settings, cast, and characters.", poster: https://theposterdb.com/api/assets/879}
     imdb_list:
       - https://www.imdb.com/list/ls029032797/
+    collection_order: custom
 ###########################
 #    Decade Collections   #
 ###########################
@@ -252,7 +253,7 @@ collections:
 ###########################
   Trakt Trending:
     trakt_trending: 50
-    sort_title: +++++++++_Trakt Trending
+    sort_title: ++++++++++_Trakt Trending
 ######################################################
 #                Chart Collections                   #
 ######################################################
