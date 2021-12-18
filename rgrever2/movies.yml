@@ -142,7 +142,7 @@ collections:
     imdb_list: https://www.imdb.com/list/ls092321048/
     summary: A Pandemic film resolves around widespread viruses, plagues, and diseases.
   Parallel Universe:
-    template: {name: Other Genre, poster: )
+    template: {name: Other Genre)
     imdb_list:
       - url: https://www.imdb.com/list/ls064806168/
     summary:  
