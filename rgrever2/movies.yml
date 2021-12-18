@@ -145,7 +145,7 @@ collections:
     template: {name: Other Genre, poster: c:\config\posters\parralleluniverse.jpg}
     imdb_list: https://www.imdb.com/list/ls064806168/
     summary:  
- Romance:
+  Romance:
     template: {name: Genre, genre: Romance, poster: https://theposterdb.com/api/assets/53062}
     summary: "Romance film can be defined as a genre wherein the plot revolves around the love between two protagonists. This genre usually has a theme that explores an issue within love, including but not limited to: love at first sight, forbidden love, love triangles, and sacrificial love. The tone of Romance film can vary greatly. Whether the end is happy or tragic, Romance film aims to evoke strong emotions in the audience."
   Science Fiction:
