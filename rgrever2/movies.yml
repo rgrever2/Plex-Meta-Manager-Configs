@@ -226,22 +226,15 @@ collections:
 ###########################
 #    Movie Collections    #
 ###########################
-  James Bond:
-    template: {name: Movie, collection: 645, summary: 645, poster: https://theposterdb.com/api/assets/115662}
-  X-Men:
-    template: {name: Movie, collection: 748, summary: 748, poster: https://theposterdb.com/api/assets/20 }
-  Mission Impossible:
-    template: {name: Movie, collection: 87359, summary: 87359, poster: https://theposterdb.com/api/assets/65202}
-  Pirates of the Caribbean:
-    template: {name: Movie, collection: 295, summary: 295, poster: https://theposterdb.com/api/assets/71934}
-  Jurassic Park:
-    template: {name: Movie, collection: 328, summary: 328, poster: https://theposterdb.com/api/assets/45080}
-  Harry Potter:
-    template: {name: Movie, collection: 1241, summary: 1241, poster: https://theposterdb.com/api/assets/737}
   Marvel Cinematic Universe (Chronological Order):
     template: {name: imdb, summary: "The Marvel Cinematic Universe (MCU) is an American media franchise and shared universe centered on a series of superhero films produced by Marvel Studios. The films are based on characters that appear in American comic books published by Marvel Comics. The franchise also includes television series, short films, digital series, and literature. The shared universe, much like the original Marvel Universe in comic books, was established by crossing over common plot elements, settings, cast, and characters.", poster: https://theposterdb.com/api/assets/879}
     imdb_list:
       - https://www.imdb.com/list/ls029032797/
+    collection_order: custom
+  The Conjuring Series (Cronolgical Order):
+    template: {name: imdb, summary: "All eight films of the Conjuring Universe take place between 1952 and 1981", poster: https://theposterdb.com/api/assets/156621}
+    imdb_list:
+      - http://www.imdb.com/list/ls070568483/
     collection_order: custom
 ###########################
 #    Decade Collections   #
@@ -251,7 +244,7 @@ collections:
   40's Movies:
     template: {name: Decade, year: 1940, poster: https://theposterdb.com/api/assets/105676}
   50's Movies: 
-    template: {name: Decade, year: 1950, oster: https://theposterdb.com/api/assets/105677}
+    template: {name: Decade, year: 1950, poster: https://theposterdb.com/api/assets/105677}
   60's Movies:
     template: {name: Decade, year: 1960, poster: https://theposterdb.com/api/assets/105331}
   70's Movies:
