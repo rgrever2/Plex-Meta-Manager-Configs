@@ -42,7 +42,6 @@ collections:
            any:
               title: halloween
               collection: halloween
-              genre: halloween
               label: halloween
     imdb_list:
       - https://www.imdb.com/list/ls023118929/
@@ -68,7 +67,6 @@ collections:
            any:
               title: christmas
               collection: christmas
-              genre: christmas
               label: christmas
     imdb_list:
       - https://www.imdb.com/list/ls000096828/
