@@ -26,7 +26,8 @@ templates:
               label: <<collection_name>>
         url_poster: <<poster>>
         sort_title: +_<<collection_name>>
-        collection_order: release
+        collection_order: alpha
+        sync_mode: sync
     Studio:
         plex_search:
           studio: <<studio>>
