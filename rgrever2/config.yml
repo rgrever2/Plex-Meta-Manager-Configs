@@ -12,7 +12,7 @@ settings:                  # Can be individually specified per library as well
     cache: true
     cache_expiration: 60
     asset_directory: config/assets
-    asset_folders: true
+    asset_folders: false
     assets_for_all: false
     sync_mode: append
     show_unmanaged: true
