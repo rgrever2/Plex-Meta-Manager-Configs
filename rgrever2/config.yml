@@ -3,8 +3,8 @@
 libraries:              # Library mappings must have a colon (:) placed after them
     Movies:
         metadata_path:
-          - file: config/movies.yml
-          - file: config/holidays.yml
+          - url: https://raw.githubusercontent.com/rgrever2/Plex-Meta-Manager-Configs/master/rgrever2/movies.yml
+          - url: https://raw.githubusercontent.com/rgrever2/Plex-Meta-Manager-Configs/master/rgrever2/holidays.yml
     TV Shows:
         metadata_path:
           - file: config/tv.yml
@@ -18,7 +18,7 @@ settings:                  # Can be individually specified per library as well
     show_unmanaged: true
     show_filtered: false
     show_missing: false
-    save_missing: true
+    save_missing: false
     run_again_delay: 2
     missing_only_released: true
     create_asset_folders: false
@@ -27,7 +27,7 @@ settings:                  # Can be individually specified per library as well
     tvdb_language: default
     show_missing_assets: true
     show_missing_season_assets: false
-    delete_not_scheduled: false
+    delete_not_scheduled: true
     only_filter_missing: false
     ignore_ids:
     ignore_imdb_ids:
@@ -41,6 +41,8 @@ plex:                       # Can be individually specified per library as well
 tmdb:
     apikey: 0f2eb5fb1b659c51b473a6917e57ded9
     language: en
+omdb:
+  apikey: 6fe5b3a7
 trakt:
     client_id: 0e33454884fa7502ff1ead64d149660ce302a3c12263f354701b84b57a186894
     client_secret: cece3be95dacd0caf3e75c58a7bfb687181e73bc0d6836c65335678688e62871
