@@ -6,9 +6,7 @@ libraries:              # Library mappings must have a colon (:) placed after th
           - url: https://raw.githubusercontent.com/rgrever2/Plex-Meta-Manager-Configs/master/rgrever2/movies.yml
           - url: https://raw.githubusercontent.com/rgrever2/Plex-Meta-Manager-Configs/master/rgrever2/holidays.yml
         operations:
-          assets_for_all: true
           mass_genre_update: omdb
-          delete_collections_with_less: 2
           split_duplicates: true
           delete_unmanaged_collections: true
     TV Shows:
@@ -19,7 +17,7 @@ settings:                  # Can be individually specified per library as well
     cache_expiration: 60
     asset_directory: config/assets
     asset_folders: false
-    assets_for_all: false
+    assets_for_all: true
     sync_mode: append
     show_unmanaged: true
     show_filtered: false
