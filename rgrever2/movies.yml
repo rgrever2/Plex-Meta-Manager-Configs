@@ -67,7 +67,10 @@ collections:
 ###########################
 #       Test Area         #
 ###########################
-
+  DC Extended Universe:
+    template: {name: imdb, summary: "The DC Extended Universe (DCEU) is an American media franchise and shared universe centered on a series of superhero films based on characters that appeared in American comic books by DC Comics.", poster: https://theposterdb.com/api/assets/79223}
+    imdb_list:
+      - https://www.imdb.com/list/ls077827588/
 ###########################
 #    Genre Collections    #
 ###########################
