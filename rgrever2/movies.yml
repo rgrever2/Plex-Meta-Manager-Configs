@@ -73,11 +73,10 @@ collections:
     imdb_list:
       - https://www.imdb.com/list/ls047139893/
     collection_order: custom
-
   The Conjuring Series (Cronolgical Order):
     template: {name: imdb, summary: "All eight films of the Conjuring Universe take place between 1952 and 1981", poster: https://theposterdb.com/api/assets/156621}
     imdb_list:
-      - https://www.imdb.com/list/ls503763928/
+      - https://www.imdb.com/list/ls029179577/
     collection_order: custom
 ###########################
 #    Genre Collections    #
