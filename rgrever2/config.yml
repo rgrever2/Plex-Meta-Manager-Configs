@@ -9,12 +9,8 @@ libraries:              # Library mappings must have a colon (:) placed after th
           assets_for_all: true
           mass_genre_update: omdb
           delete_collections_with_less: 2
-          tmdb_collections:
-            template:
-              tmdb_collection_details: <<collection_id>>
-              collection_order: custom
           split_duplicates: true
-          delete_unmanaged_collections: true          
+          delete_unmanaged_collections: true
     TV Shows:
         metadata_path:
           - file: config/tv.yml
