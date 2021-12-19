@@ -69,14 +69,7 @@ collections:
 ###########################
 #       Test Area         #
 ###########################
-  MaonsterVerse (Chronological Order):
-    template: {name: imdb, summary: "The MonsterVerse takes place in an alternate Earth timeline inhabited by massive unidentified terrestrial organisms (MUTOs), giant monsters of various shapes, sizes, and forms. Each of the films center around Monarch, a cryptozoological organization dedicated to studying the creatures, and their various encounters with the beasts. Many of the Kaiju present in the MonsterVerse are called Titans.", poster: https://theposterdb.com/api/assets/116534}
-    imdb_list:
-      - https://www.imdb.com/list/ls047139893/
-  The Conjuring Series (Cronolgical Order):
-    template: {name: imdb, summary: "All eight films of the Conjuring Universe take place between 1952 and 1981", poster: https://theposterdb.com/api/assets/156621}
-    imdb_list:
-      - https://www.imdb.com/list/ls029179577/
+
 ###########################
 #    Genre Collections    #
 ###########################
@@ -157,7 +150,7 @@ collections:
     imdb_list: https://www.imdb.com/list/ls092321048/
     summary: A Pandemic film resolves around widespread viruses, plagues, and diseases.
   Parallel Universe:
-    template: {name: Other Genre}
+    template: {name: Other Genre, poster: config/assets/Parallel Universe.jpg}
     imdb_list: https://www.imdb.com/list/ls064806168/
     summary:  
   Romance:
@@ -245,6 +238,14 @@ collections:
 ###########################
 #    Movie Collections    #
 ###########################
+  MaonsterVerse (Chronological Order):
+    template: {name: imdb, summary: "The MonsterVerse takes place in an alternate Earth timeline inhabited by massive unidentified terrestrial organisms (MUTOs), giant monsters of various shapes, sizes, and forms. Each of the films center around Monarch, a cryptozoological organization dedicated to studying the creatures, and their various encounters with the beasts. Many of the Kaiju present in the MonsterVerse are called Titans.", poster: https://theposterdb.com/api/assets/116534}
+    imdb_list:
+      - https://www.imdb.com/list/ls047139893/
+  The Conjuring Series (Cronolgical Order):
+    template: {name: imdb, summary: "All eight films of the Conjuring Universe take place between 1952 and 1981", poster: https://theposterdb.com/api/assets/156621}
+    imdb_list:
+      - https://www.imdb.com/list/ls029179577/
   Marvel Cinematic Universe (Chronological Order):
     template: {name: imdb, summary: "The Marvel Cinematic Universe (MCU) is an American media franchise and shared universe centered on a series of superhero films produced by Marvel Studios. The films are based on characters that appear in American comic books published by Marvel Comics. The franchise also includes television series, short films, digital series, and literature. The shared universe, much like the original Marvel Universe in comic books, was established by crossing over common plot elements, settings, cast, and characters.", poster: https://theposterdb.com/api/assets/879}
     imdb_list:
