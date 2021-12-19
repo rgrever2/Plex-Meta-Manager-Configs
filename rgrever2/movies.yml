@@ -24,8 +24,6 @@ templates:
            any:
               title: <<collection_name>>
               collection: <<collection_name>>
-              genre: <<collection_name>>
-              label: <<collection_name>>
         url_poster: <<poster>>
         sort_title: +_<<collection_name>>
         collection_order: alpha
@@ -150,7 +148,7 @@ collections:
     imdb_list: https://www.imdb.com/list/ls092321048/
     summary: A Pandemic film resolves around widespread viruses, plagues, and diseases.
   Parallel Universe:
-    template: {name: Other Genre, poster: config/assets/Parallel Universe.jpg}
+    template: {name: Other Genre, poster: - file: config/assets/Parallel Universe.jpg}
     imdb_list: https://www.imdb.com/list/ls064806168/
     summary:  
   Romance:
@@ -296,12 +294,13 @@ collections:
   Best Picture Nominees:
     template: { name: Chart, num: 5 }
     imdb_list: https://www.imdb.com/list/ls009487211/?sort=moviemeter,asc&st_dt=&mode=simple&page=1&ref_=ttls_vw_smp
-    summary: Best Picture Oscar Nominees by Year
+    summary: Best Picture Oscar Nominees sorted by rating
+  Best of 2021:
+    template: { name: Best of, year: 2021 }
   Best of 2014:
     template: { name: Best of, year: 2014 }
   Best of 2019:
     template: { name: Best of, year: 2019 }
   Best of 2020:
     template: { name: Best of, year: 2020 }
-  Best of 2021:
-    template: { name: Best of, year: 2021 }
+
