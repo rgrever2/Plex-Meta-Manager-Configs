@@ -67,18 +67,9 @@ collections:
 ###########################
 #       Test Area         #
 ###########################
-  DC Extended Universe:
-    template: {name: imdb, summary: "The DC Extended Universe (DCEU) is an American media franchise and shared universe centered on a series of superhero films based on characters that appeared in American comic books by DC Comics.", poster: https://theposterdb.com/api/assets/79223}
+  X-Men Cinematice Universe in Chronological order: {name: imdb, summary: "That means there are really two major X-Men timelines, which diverge from one another at X-Men: Days of Future Past in 1973. And yet, the Deadpool and Logan spinoffs don't sit comfortably with either of them, meaning they realistically have to be considered further alternate futures. Here's everything you need to know about this complicated situation. Before getting into details, the X-Men movies are as follows: Original X-Men Timeline - X-Men Origins: Wolverine (first section), X-Men: First Class, X-Men Origins: Wolverine (second section), X-Men, X2: X-Men United, X-Men: The Last Stand, The Wolverine, X-Men: Days of Future Past.  Relaunched X-Men Timeline - X-Men Origins: Wolverine (first section), X-Men: First Class, X-Men: Days of Future Past, X-Men: Apocalypse, X-Men: Dark Phoenix, Logan (possible alternate future).  Deadpool's Unclear Timeline - Deadpool, Deadpool 2", poster: https://theposterdb.com/api/assets/77497}
     imdb_list:
-      - https://www.imdb.com/list/ls077827588/
-  Middle Earth:
-    template: {name: imdb, summary: "Depictions of Middle-Earth in film.", poster: "https://theposterdb.com/api/assets/1716"}
-    imdb_list:
-      - https://www.imdb.com/list/ls025445083/
-  The Wizarding World:
-    template: {name: imdb, summary: "The Wizarding World", poster: "https://theposterdb.com/api/assets/151007"}
-    imdb_list:
-      - https://www.imdb.com/list/ls060991914/
+      - https://www.imdb.com/list/ls049541472/
 ###########################
 #    Genre Collections    #
 ###########################
@@ -242,9 +233,9 @@ collections:
 #   Studio Collections    #
 ###########################
 
-###########################
-#    Movie Collections    #
-###########################
+####################################
+#    Movie/Universe Collections    #
+####################################
   MaonsterVerse (Chronological Order):
     template: {name: imdb, summary: "The MonsterVerse takes place in an alternate Earth timeline inhabited by massive unidentified terrestrial organisms (MUTOs), giant monsters of various shapes, sizes, and forms. Each of the films center around Monarch, a cryptozoological organization dedicated to studying the creatures, and their various encounters with the beasts. Many of the Kaiju present in the MonsterVerse are called Titans.", poster: https://theposterdb.com/api/assets/116534}
     imdb_list:
@@ -257,8 +248,18 @@ collections:
     template: {name: imdb, summary: "The Marvel Cinematic Universe (MCU) is an American media franchise and shared universe centered on a series of superhero films produced by Marvel Studios. The films are based on characters that appear in American comic books published by Marvel Comics. The franchise also includes television series, short films, digital series, and literature. The shared universe, much like the original Marvel Universe in comic books, was established by crossing over common plot elements, settings, cast, and characters.", poster: https://theposterdb.com/api/assets/879}
     imdb_list:
       - https://www.imdb.com/list/ls029032797/
-    collection_order: custom
-
+  DC Extended Universe:
+    template: {name: imdb, summary: "The DC Extended Universe (DCEU) is an American media franchise and shared universe centered on a series of superhero films based on characters that appeared in American comic books by DC Comics.", poster: https://theposterdb.com/api/assets/79223}
+    imdb_list:
+      - https://www.imdb.com/list/ls077827588/
+  Middle Earth:
+    template: {name: imdb, summary: "Depictions of Middle-Earth in film.", poster: "https://theposterdb.com/api/assets/1716"}
+    imdb_list:
+      - https://www.imdb.com/list/ls025445083/
+  The Wizarding World:
+    template: {name: imdb, summary: "The Wizarding World", poster: "https://theposterdb.com/api/assets/151007"}
+    imdb_list:
+      - https://www.imdb.com/list/ls060991914/
 ###########################
 #    Decade Collections   #
 ###########################
@@ -277,15 +278,11 @@ collections:
   90's Movies:
     template: {name: Decade, year: 1990, poster: https://theposterdb.com/api/assets/105334}
   00's Movies:
-    plex_search:
-      decade: 2000
-    sort_title: +++_Decade
-    collection_order: alpha
+    template: {name: Decade, year: 2000, poster: https://imgur.com/L9NotNh}
   10's Movies:
-    plex_search:
-      decade: 2010
-    sort_title: +++_Decade
-    collection_order: alpha
+    template: {name: Decade, year: 2010, poster: https://imgur.com/vgF2lcl}
+  20's Movies:
+    template: {name: Decade, year: 2020, poster: https://imgur.com/g4jPyvm}
 ###########################
 #     Trakt Trending      #
 ###########################
