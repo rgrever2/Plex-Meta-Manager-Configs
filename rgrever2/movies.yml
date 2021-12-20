@@ -67,9 +67,9 @@ collections:
 ###########################
 #       Test Area         #
 ###########################
-  XMen Cinematice Universe in Chronological order: {name: imdb, summary: "That means there are really two major X-Men timelines, which diverge from one another at X-Men: Days of Future Past in 1973. And yet, the Deadpool and Logan spinoffs don't sit comfortably with either of them, meaning they realistically have to be considered further alternate futures. Here's everything you need to know about this complicated situation. Before getting into details, the X-Men movies are as follows: Original X-Men Timeline - X-Men Origins: Wolverine (first section), X-Men: First Class, X-Men Origins: Wolverine (second section), X-Men, X2: X-Men United, X-Men: The Last Stand, The Wolverine, X-Men: Days of Future Past.  Relaunched X-Men Timeline - X-Men Origins: Wolverine (first section), X-Men: First Class, X-Men: Days of Future Past, X-Men: Apocalypse, X-Men: Dark Phoenix, Logan (possible alternate future).  Deadpool's Unclear Timeline - Deadpool, Deadpool 2", poster: https://theposterdb.com/api/assets/77497}
-    imdb_list:
-      - url: https://www.imdb.com/list/ls049541472/
+  X-Men Cinematice Universe: 
+    template: {name: imdb, summary: "That means there are really two major X-Men timelines, which diverge from one another at X-Men: Days of Future Past in 1973. And yet, the Deadpool and Logan spinoffs don't sit comfortably with either of them, meaning they realistically have to be considered further alternate futures. Here's everything you need to know about this complicated situation. Before getting into details, the X-Men movies are as follows: Original X-Men Timeline - X-Men Origins: Wolverine (first section), X-Men: First Class, X-Men Origins: Wolverine (second section), X-Men, X2: X-Men United, X-Men: The Last Stand, The Wolverine, X-Men: Days of Future Past.  Relaunched X-Men Timeline - X-Men Origins: Wolverine (first section), X-Men: First Class, X-Men: Days of Future Past, X-Men: Apocalypse, X-Men: Dark Phoenix, Logan (possible alternate future).  Deadpool's Unclear Timeline - Deadpool, Deadpool 2", poster: https://theposterdb.com/api/assets/77497}
+      imdb_list: https://www.imdb.com/list/ls049541472/
 ###########################
 #    Genre Collections    #
 ###########################
