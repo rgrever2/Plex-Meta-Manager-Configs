@@ -6,9 +6,9 @@ libraries:              # Library mappings must have a colon (:) placed after th
           - url: https://raw.githubusercontent.com/rgrever2/Plex-Meta-Manager-Configs/master/rgrever2/movies.yml
           - url: https://raw.githubusercontent.com/rgrever2/Plex-Meta-Manager-Configs/master/rgrever2/holidays.yml
         operations:
-          mass_genre_update: omdb
-          split_duplicates: true
-          delete_unmanaged_collections: true
+            mass_genre_update: omdb
+            split_duplicates: true
+            delete_unmanaged_collections: true
     TV Shows:
         metadata_path:
           - file: config/tv.yml
