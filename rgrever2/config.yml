@@ -6,7 +6,7 @@ libraries:              # Library mappings must have a colon (:) placed after th
           - url: https://raw.githubusercontent.com/rgrever2/Plex-Meta-Manager-Configs/master/rgrever2/movies.yml
           - url: https://raw.githubusercontent.com/rgrever2/Plex-Meta-Manager-Configs/master/rgrever2/holidays.yml
         operations:
-            mass_genre_update: tmdb
+            mass_genre_update: omdb
             split_duplicates: true
             delete_unmanaged_collections: true
     TV Shows:
@@ -35,6 +35,7 @@ settings:                  # Can be individually specified per library as well
     only_filter_missing: false
     ignore_ids:
     ignore_imdb_ids:
+    delete_unmanaged_collections: true
 plex:                       # Can be individually specified per library as well
     url: http://192.168.0.201:32400
     token: LptS-WMbTBESsRpV7JT7
