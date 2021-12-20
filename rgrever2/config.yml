@@ -9,33 +9,56 @@ libraries:              # Library mappings must have a colon (:) placed after th
             mass_genre_update: omdb
             split_duplicates: true
             delete_unmanaged_collections: true
+            cache: true
+            cache_expiration: 60
+            asset_directory: config/assets
+            asset_folders: false
+            assets_for_all: true
+            sync_mode: append
+            show_unmanaged: true
+            show_filtered: false
+            show_missing: false
+            save_missing: false
+            run_again_delay: 2
+            missing_only_released: true
+            create_asset_folders: false
+            collection_minimum: 2
+            delete_below_minimum: true
+            tvdb_language: default
+            show_missing_assets: true
+            show_missing_season_assets: false
+            delete_not_scheduled: true
+            only_filter_missing: false
+            ignore_ids:
+            ignore_imdb_ids:
+            delete_unmanaged_collections: true
     TV Shows:
         metadata_path:
           - file: config/tv.yml
-settings:                  # Can be individually specified per library as well
-    cache: true
-    cache_expiration: 60
-    asset_directory: config/assets
-    asset_folders: false
-    assets_for_all: true
-    sync_mode: append
-    show_unmanaged: true
-    show_filtered: false
-    show_missing: false
-    save_missing: false
-    run_again_delay: 2
-    missing_only_released: true
-    create_asset_folders: false
-    collection_minimum: 2
-    delete_below_minimum: true
-    tvdb_language: default
-    show_missing_assets: true
-    show_missing_season_assets: false
-    delete_not_scheduled: true
-    only_filter_missing: false
-    ignore_ids:
-    ignore_imdb_ids:
-    delete_unmanaged_collections: true
+        settings:                  # Can be individually specified per library as well
+        cache: true
+        cache_expiration: 60
+        asset_directory: config/assets
+        asset_folders: false
+        assets_for_all: true
+        sync_mode: append
+        show_unmanaged: true
+        show_filtered: false
+        show_missing: false
+        save_missing: false
+        run_again_delay: 2
+        missing_only_released: true
+        create_asset_folders: false
+        collection_minimum: 2
+        delete_below_minimum: true
+        tvdb_language: default
+        show_missing_assets: true
+        show_missing_season_assets: false
+        delete_not_scheduled: true
+        only_filter_missing: false
+        ignore_ids:
+        ignore_imdb_ids:
+        delete_unmanaged_collections: true
 plex:                       # Can be individually specified per library as well
     url: http://192.168.0.201:32400
     token: LptS-WMbTBESsRpV7JT7
