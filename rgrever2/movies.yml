@@ -21,6 +21,7 @@ templates:
         sort_title: +_<<collection_name>>
     Holiday:
         plex_search:
+           validate: false
            any:
               title: <<collection_name>>
               collection: <<collection_name>>
@@ -150,7 +151,7 @@ collections:
     imdb_list: https://www.imdb.com/list/ls092321048/
     summary: A Pandemic film resolves around widespread viruses, plagues, and diseases.
   Parallel Universe:
-    template: {name: Other Genre}
+    template: {name: Other Genre, poster: https://theposterdb.com/api/assets/98557}
     imdb_list: https://www.imdb.com/list/ls064806168/
     summary:  
   Romance:
@@ -249,7 +250,7 @@ collections:
     imdb_list:
       - https://www.imdb.com/list/ls029032797/
   DC Extended Universe:
-    template: {name: imdb, summary: "The DC Extended Universe (DCEU) is an American media franchise and shared universe centered on a series of superhero films based on characters that appeared in American comic books by DC Comics.", poster: https://theposterdb.com/api/assets/79223}
+    template: {name: imdb, summary: "The DC Extended Universe (DCEU) is an American media franchise and shared universe centered on a series of superhero films based on characters that appeared in American comic books by DC Comics.", poster: https://imgur.com/sPwl5GR}
     imdb_list:
       - https://www.imdb.com/list/ls077827588/
   Middle Earth:
@@ -263,25 +264,25 @@ collections:
 ###########################
 #    Decade Collections   #
 ###########################
-  30's Movies:
+  1930's Movies:
     template: {name: Decade, year: 1930, poster: https://theposterdb.com/api/assets/105675}
-  40's Movies:
+  1940's Movies:
     template: {name: Decade, year: 1940, poster: https://theposterdb.com/api/assets/105676}
-  50's Movies: 
+  1950's Movies: 
     template: {name: Decade, year: 1950, poster: https://theposterdb.com/api/assets/105677}
-  60's Movies:
+  1960's Movies:
     template: {name: Decade, year: 1960, poster: https://theposterdb.com/api/assets/105331}
-  70's Movies:
+  1970's Movies:
     template: {name: Decade, year: 1970, poster: https://theposterdb.com/api/assets/105332}
-  80's Movies:
+  1980's Movies:
     template: {name: Decade, year: 1980, poster: https://theposterdb.com/api/assets/105333}
-  90's Movies:
+  1990's Movies:
     template: {name: Decade, year: 1990, poster: https://theposterdb.com/api/assets/105334}
-  00's Movies:
+  2000's Movies:
     template: {name: Decade, year: 2000, poster: https://imgur.com/L9NotNh}
-  10's Movies:
+  2010's Movies:
     template: {name: Decade, year: 2010, poster: https://imgur.com/vgF2lcl}
-  20's Movies:
+  2020's Movies:
     template: {name: Decade, year: 2020, poster: https://imgur.com/g4jPyvm}
 ###########################
 #     Trakt Trending      #
