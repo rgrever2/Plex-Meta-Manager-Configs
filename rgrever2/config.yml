@@ -9,6 +9,7 @@ libraries:              # Library mappings must have a colon (:) placed after th
             mass_genre_update: omdb
             split_duplicates: true
             delete_unmanaged_collections: true
+            tmdb_collections:
     TV Shows:
         metadata_path:
           - file: config/tv.yml
