@@ -36,12 +36,21 @@ templates:
         url_poster: <<poster>>
         sort_title: ++_<<collection_name>>
         collection_order: alpha
-    Movie:
-        tmdb_collection: <<collection>>
-        tmdb_summary: <<summary>>
-        url_poster: <<poster>>
-        sort_title: <<collection_name>>
-        collection_order: release
+    tmdb:
+      optional:
+        - collections
+        - lists
+        - movies
+        - tmdb_summary
+        - summary
+      tmdb_collection: <<collections>>
+      tmdb_list: <<lists>>
+      tmdb_movie: <<movies>>
+      tmdb_summary: <<tmdb_summary>>
+      summary: <<summary>>
+      url_poster: <<poster>>
+      sort_title: <<collection_name>>
+      smart_label: release.asc
     Decade:
     # I was not able to find any posters i liked for decades 00 and 10, so i did not use the template. 
         plex_search:
