@@ -58,7 +58,7 @@ collections:
     schedule: yearly(03/20) #3/20 - 4/26
 
   Celebrating Mom:
-    template: {name: Holiday, poster: holiday: "Mother's Day"}
+    template: {name: Holiday, holiday: "Mother's Day"}
     # trakt_list:
       # - 
     imdb_list:
