@@ -14,6 +14,22 @@ collections:
 #####################################
 #        Holiday Collections        #
 #####################################
+  New Year's Day Movies:
+    schedule: range(12/24-01/05)
+    template: {name: Holiday, holiday: "New Year's Day Movies"}
+    imdb_list: https://www.imdb.com/list/ls066838460/
+    trakt_list:
+      - https://trakt.tv/users/galacticboy/lists/new-years
+      - https://trakt.tv/users/galacticboy/lists/nye-sync
+      
+  Celebrating Black Cinema:
+    template: {name: Holiday, holiday: "Black History Month"}
+    trakt_list:
+      - https://trakt.tv/users/galacticboy/lists/essential-black-movies
+    # imdb_list:
+    summary: Movies about or by the people of the African Diaspora.
+    schedule: yearly(02/01) #2/1 - 3/1
+
   Valentine's Day Movies:
     schedule: range(02/01-02/15)
     template: {name: Holiday, holiday: "Valentine's Day"}
@@ -21,11 +37,52 @@ collections:
       - https://www.imdb.com/list/ls000094398/
       - https://www.imdb.com/list/ls057783436/
       - https://www.imdb.com/list/ls064427905/
+    trakt_list:
+      - https://trakt.tv/users/galacticboy/lists/valentines-day
+      - https://trakt.tv/users/movistapp/lists/the-30-best-romantic-comedies-of-all-time
+      - https://trakt.tv/users/galacticboy/lists/imdb-top-200-romance-movies-1970
 
   St. Patrick's Day Movies:
     schedule: range(03/01-03/18)
     template: {name: Holiday, holiday: "St. Patrick's Day"}
-    imdb_list: https://www.imdb.com/list/ls063934595/
+    imdb_list:
+      - https://www.imdb.com/list/ls063934595/
+    trakt_list:
+      - https://trakt.tv/users/galacticboy/lists/essential-irish-movies
+
+  Celebrating Easter:
+    template: {name: Holiday, holiday: "Easter"} 
+    trakt_list:
+      - https://trakt.tv/users/galacticboy/lists/easter-movies
+    summary:  A mix of Easter themed movies and just movies that are fun to watch around Easter.
+    schedule: yearly(03/20) #3/20 - 4/26
+
+  Celebrating Mom:
+    template: {name: Holiday, poster: holiday: "Mother's Day"}
+    # trakt_list:
+      # - 
+    imdb_list:
+      - https://www.imdb.com/list/ls072551197/
+    summary: A mix of Motherhood themed movies and just movies that are fun to watch around Mothers Day. 
+    schedule: yearly(05/01) #5/1 - 5/17
+  
+  Celebrating Memorial Day:
+    template: {name: Holiday, holiday: "Memorial Day"}
+    #imdb_list:
+    #  -
+    trakt_list:
+      - https://trakt.tv/users/galacticboy/lists/movies-about-vets
+    summary:
+    schedule: yearly(05/18) #5/18 - 5/31
+    sync_mode: sync
+
+  Celebrating Fathers Day:
+    template: {name: Holiday, holiday: "Father's Day"}
+    imdb_list:
+      - https://www.imdb.com/list/ls071879454/
+    # trakt_list:
+    summary: A mix of Fatherhood themed movies and just movies that are fun to watch around Fathers Day.
+    schedule: yearly(06/10) #6/10 - 6/22
 
   Thanksgiving Movies:
     schedule: range(11/01-11/31)
@@ -33,6 +90,9 @@ collections:
     imdb_list:
       - https://www.imdb.com/list/ls000835734/
       - https://www.imdb.com/list/ls091597850/
+    trakt_list:
+      - https://trakt.tv/users/galacticboy/lists/thanksgiving-movies
+      - https://trakt.tv/users/galacticboy/lists/tday-sync
 
   Halloween Movies:
     schedule: range(10/01-11/03)
@@ -57,6 +117,11 @@ collections:
       - https://trakt.tv/users/mybicycle/lists/halloween
       - https://trakt.tv/users/jayinftl/lists/halloween
       - https://trakt.tv/users/roswellgeek/lists/halloween
+      - https://trakt.tv/users/outspoken/lists/halloween-with-kids
+      - https://trakt.tv/users/dechevigny/lists/kids-halloween
+      - https://trakt.tv/users/jaytatro11/lists/kids-halloween-favorites?display=movie
+      - https://trakt.tv/users/philrivers/lists/dreadit-s-top-100-horror-films-2018-edition-r-horror
+      - https://trakt.tv/users/galacticboy/lists/horror-in-past-90-days
 
   Christmas Movies:
     schedule: range(11/26-01/01)
@@ -80,8 +145,6 @@ collections:
       - https://trakt.tv/users/2borno2b/lists/christmas-movies-extravanganza
       - https://trakt.tv/users/pualani78/lists/christmas-2020
       - https://trakt.tv/users/veninjak/lists/complete-christmas-2021-copy
+      - https://trakt.tv/users/movistapp/lists/christmas-movies
+      - https://trakt.tv/users/galacticboy/lists/xmas-sync
 
-  New Year's Day Movies:
-    schedule: range(12/24-01/05)
-    template: {name: Holiday, holiday: "New Year's Day Movies"}
-    imdb_list: https://www.imdb.com/list/ls066838460/
