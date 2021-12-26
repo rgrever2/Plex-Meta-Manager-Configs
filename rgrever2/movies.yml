@@ -140,6 +140,10 @@ collections:
       - url: https://www.imdb.com/list/ls068378513/
       - url: https://www.imdb.com/list/ls090404120/
     summary: Martial Arts film is a sub-genre of action films that feature numerous martial arts combat between characters. These combats are usually the films' primary appeal and entertainment value, and often are a method of storytelling and character expression and development. Martial Arts are frequently featured in training scenes and other sequences in addition to fights. Martial Arts films commonly include other types of action, such as hand-to-hand combat, stuntwork, chases, and gunfights.  
+  "Mindf#ck Movies":
+    template: {name: Other Genre}
+    trakt_list: https://trakt.tv/users/hdlists/lists/mindfuck-movies
+    summary: "A collection of movies that will mess with your mind!"
   Music:
     template: {name: Other Genre, poster: https://theposterdb.com/api/assets/69217}
     imdb_list:
@@ -154,6 +158,10 @@ collections:
   Mystery:
     template: {name: Genre, genre: Mystery, poster: https://theposterdb.com/api/assets/53060}
     summary: A Mystery film centers on a person of authority, usually a detective, that is trying to solve a mysterious crime. The main protagonist uses clues, investigation, and logical reasoning. The biggest element in these films is a sense of “whodunit” suspense, usually created through visual cues and unusual plot twists.
+  Outer Space & Exploration Movies:
+    template: {name: Other Genre}
+    trakt_list: https://trakt.tv/users/hdlists/lists/outer-space-space-exploration-movies
+    summary: "A collection of movies that feature outer space and exploration."
   Pandemic:
     template: {name: Other Genre, poster: https://theposterdb.com/api/assets/69220}
     imdb_list: https://www.imdb.com/list/ls092321048/
@@ -187,6 +195,10 @@ collections:
       - https://www.imdb.com/list/ls086022668/
       - https://www.imdb.com/list/ls049792208/
     summary: Stand-up comedy is a comedic style in which a comedian performs in front of a live audience, speaking directly to them through a microphone. Comedians give the illusion that they are dialoguing, but in actuality, they are monologuing a grouping of humorous stories, jokes and one-liners, typically called a shtick, routine, act, or set. Some stand-up comedians use props, music or magic tricks to enhance their acts. Stand-up comedians perform quasi-autobiographical and fictionalized extensions of their offstage selves.
+  Superhero Movies:
+    template: {name: Other Genre}
+    trakt_list: https://trakt.tv/users/hdlists/lists/superhero-movies-from-1980-to-today
+    summary: "A collection of superhero movies released from 1980 until today."
   Sword & Sorcery:
     template: {name: Other Genre, poster: https://theposterdb.com/api/assets/74604}
     imdb_list: https://www.imdb.com/list/ls022909805
@@ -194,6 +206,19 @@ collections:
   Thriller:
     template: {name: Genre, genre: Thriller, poster: https://theposterdb.com/api/assets/52019}
     summary: Thriller Film is a genre that revolves around anticipation and suspense. The aim for Thrillers is to keep the audience alert and on the edge of their seats. The protagonist in these films is set against a problem – an escape, a mission, or a mystery. No matter what sub-genre a Thriller film falls into, it will emphasize the danger that the protagonist faces. The tension with the main problem is built on throughout the film and leads to a highly stressful climax.
+  Time Travel Movies:
+    template: {name: Other Genre}
+    trakt_list:
+      - https://trakt.tv/lists/3940186
+      - https://trakt.tv/lists/20709447
+      - https://trakt.tv/lists/2729898
+      - https://trakt.tv/lists/2729898
+      - https://trakt.tv/lists/4297290
+      - https://trakt.tv/lists/2652307
+    imdb_list:
+      - https://www.imdb.com/list/ls068617191/
+      - https://www.imdb.com/list/ls004426453/
+    summary: "A collection of movies that include time travel."
   War:
     template: {name: Genre, genre: War, poster: https://theposterdb.com/api/assets/51477}
     summary: War Film is a genre that looks at the reality of war on a grand scale. They often focus on landmark battles as well as political issues within war. This genre usually focuses on a main character and his team of support, giving the audience an inside look into the gritty reality of war.
