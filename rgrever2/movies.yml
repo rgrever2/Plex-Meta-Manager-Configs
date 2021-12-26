@@ -13,11 +13,11 @@ templates:
           genre: <<genre>>
         url_poster: <<poster>>
         sort_title: +_<<collection_name>>
-        collection_order: alpha
+        smart_label: audience_rating.desc
     Other Genre:
         url_poster: <<poster>>
         sync_mode: sync
-        smart_label: random
+        smart_label: audience_rating.desc
         sort_title: +_<<collection_name>>
     Holiday:
         plex_search:
@@ -28,7 +28,7 @@ templates:
               genre: <<collection_name>>
         url_poster: <<poster>>
         sort_title: +_<<collection_name>>
-        collection_order: alpha
+        smart_label: audience_rating.desc
         sync_mode: sync
     Studio:
         plex_search:
@@ -48,7 +48,7 @@ templates:
           decade: <<year>>
         url_poster: <<poster>>
         sort_title: +++_<<collection_name>>
-        collection_order: alpha       
+        smart_label: audience_rating.desc
     imdb:
         url_poster: <<poster>>
         summary: <<summary>>
@@ -57,7 +57,7 @@ templates:
     Chart:
         sort_title: +++++++++_<<num>><<collection_name>>
         sync_mode: sync
-        smart_label: random
+        smart_label: audience_rating.desc
     Best of:
         trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-<<year>>
         sort_title: ++++++++_Best of <<year>>
@@ -69,9 +69,7 @@ collections:
 ###########################
 #       Test Area         #
 ###########################
-  X-Men Cinematice Universe: 
-    template: {name: imdb, summary: "That means there are really two major X-Men timelines, which diverge from one another at X-Men Days of Future Past in 1973. And yet, the Deadpool and Logan spinoffs don't sit comfortably with either of them, meaning they realistically have to be considered further alternate futures. Here's everything you need to know about this complicated situation. Before getting into details, the X-Men movies are as follows. Original X-Men Timeline - X-Men Origins: Wolverine (first section), X-Men First Class, X-Men Origins Wolverine (second section), X-Men, X2 X-Men United, X-Men The Last Stand, The Wolverine, X-Men Days of Future Past.  Relaunched X-Men Timeline - X-Men Origins Wolverine (first section), X-Men First Class, X-Men Days of Future Past, X-Men Apocalypse, X-Men Dark Phoenix, Logan (possible alternate future).  Deadpool's Unclear Timeline - Deadpool, Deadpool 2", poster: https://theposterdb.com/api/assets/77497}
-    imdb_list: https://www.imdb.com/list/ls049541472/
+
 ###########################
 #    Genre Collections    #
 ###########################
@@ -201,6 +199,7 @@ collections:
     trakt_list:
       - https://trakt.tv/users/movistapp/lists/christmas-movies
       - https://trakt.tv/users/2borno2b/lists/christmas-movies-extravanganza
+      - https://trakt.tv/users/kscosmos/lists/christmas-extravaganza-non-romance
       - https://trakt.tv/users/pualani78/lists/christmas-2020
       - https://trakt.tv/users/veninjak/lists/complete-christmas-2021-copy
     imdb_list:
@@ -238,30 +237,34 @@ collections:
 ####################################
 #    Movie/Universe Collections    #
 ####################################
-  MaonsterVerse (Chronological Order):
-    template: {name: imdb, summary: "The MonsterVerse takes place in an alternate Earth timeline inhabited by massive unidentified terrestrial organisms (MUTOs), giant monsters of various shapes, sizes, and forms. Each of the films center around Monarch, a cryptozoological organization dedicated to studying the creatures, and their various encounters with the beasts. Many of the Kaiju present in the MonsterVerse are called Titans.", poster: https://theposterdb.com/api/assets/116534}
-    imdb_list:
-      - https://www.imdb.com/list/ls047139893/
-  The Conjuring Series (Cronolgical Order):
+
+  Conjuring Universe (Cronolgical Order):
     template: {name: imdb, summary: "All eight films of the Conjuring Universe take place between 1952 and 1981", poster: https://theposterdb.com/api/assets/156621}
     imdb_list:
       - https://www.imdb.com/list/ls029179577/
-  Marvel Cinematic Universe (Chronological Order):
-    template: {name: imdb, summary: "The Marvel Cinematic Universe (MCU) is an American media franchise and shared universe centered on a series of superhero films produced by Marvel Studios. The films are based on characters that appear in American comic books published by Marvel Comics. The franchise also includes television series, short films, digital series, and literature. The shared universe, much like the original Marvel Universe in comic books, was established by crossing over common plot elements, settings, cast, and characters.", poster: https://theposterdb.com/api/assets/879}
-    imdb_list:
-      - https://www.imdb.com/list/ls029032797/
   DC Extended Universe:
     template: {name: imdb, summary: "The DC Extended Universe (DCEU) is an American media franchise and shared universe centered on a series of superhero films based on characters that appeared in American comic books by DC Comics.", poster: https://theposterdb.com/api/assets/140745}
     imdb_list:
       - https://www.imdb.com/list/ls077827588/
+  Marvel Cinematic Universe (Chronological Order):
+    template: {name: imdb, summary: "The Marvel Cinematic Universe (MCU) is an American media franchise and shared universe centered on a series of superhero films produced by Marvel Studios. The films are based on characters that appear in American comic books published by Marvel Comics. The franchise also includes television series, short films, digital series, and literature. The shared universe, much like the original Marvel Universe in comic books, was established by crossing over common plot elements, settings, cast, and characters.", poster: https://theposterdb.com/api/assets/879}
+    imdb_list:
+      - https://www.imdb.com/list/ls029032797/
   Middle Earth:
     template: {name: imdb, summary: "Depictions of Middle-Earth in film.", poster: "https://theposterdb.com/api/assets/1716"}
     imdb_list:
       - https://www.imdb.com/list/ls025445083/
+  MonsterVerse (Chronological Order):
+    template: {name: imdb, summary: "The MonsterVerse takes place in an alternate Earth timeline inhabited by massive unidentified terrestrial organisms (MUTOs), giant monsters of various shapes, sizes, and forms. Each of the films center around Monarch, a cryptozoological organization dedicated to studying the creatures, and their various encounters with the beasts. Many of the Kaiju present in the MonsterVerse are called Titans.", poster: https://theposterdb.com/api/assets/116534}
+    imdb_list:
+      - https://www.imdb.com/list/ls047139893/
   The Wizarding World:
     template: {name: imdb, summary: "The Wizarding World", poster: "https://theposterdb.com/api/assets/151007"}
     imdb_list:
       - https://www.imdb.com/list/ls060991914/
+  X-Men Cinematice Universe: 
+    template: {name: imdb, summary: "That means there are really two major X-Men timelines, which diverge from one another at X-Men Days of Future Past in 1973. And yet, the Deadpool and Logan spinoffs don't sit comfortably with either of them, meaning they realistically have to be considered further alternate futures. Here's everything you need to know about this complicated situation. Before getting into details, the X-Men movies are as follows. Original X-Men Timeline - X-Men Origins: Wolverine (first section), X-Men First Class, X-Men Origins Wolverine (second section), X-Men, X2 X-Men United, X-Men The Last Stand, The Wolverine, X-Men Days of Future Past.  Relaunched X-Men Timeline - X-Men Origins Wolverine (first section), X-Men First Class, X-Men Days of Future Past, X-Men Apocalypse, X-Men Dark Phoenix, Logan (possible alternate future).  Deadpool's Unclear Timeline - Deadpool, Deadpool 2", poster: https://theposterdb.com/api/assets/77497}
+    imdb_list: https://www.imdb.com/list/ls049541472/
 ###########################
 #    Decade Collections   #
 ###########################
@@ -291,6 +294,7 @@ collections:
   Trakt Trending:
     trakt_trending: 50
     sort_title: ++++++++++_Trakt Trending
+    collection_order: custom
 ######################################################
 #                Chart Collections                   #
 ######################################################
@@ -302,13 +306,13 @@ collections:
   Best Picture Nominees:
     template: { name: Chart, num: 5 }
     imdb_list: https://www.imdb.com/list/ls009487211/?sort=moviemeter,asc&st_dt=&mode=simple&page=1&ref_=ttls_vw_smp
-    summary: Best Picture Oscar Nominees sorted by rating
-  Best of 2021:
-    template: { name: Best of, year: 2021 }
+    summary: Best Picture Oscar Nominees sorted by audience rating
   Best of 2014:
     template: { name: Best of, year: 2014 }
   Best of 2019:
     template: { name: Best of, year: 2019 }
   Best of 2020:
     template: { name: Best of, year: 2020 }
+  Best of 2021:
+    template: { name: Best of, year: 2021 }
 
