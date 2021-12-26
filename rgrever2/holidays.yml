@@ -99,6 +99,7 @@ collections:
     template: {name: Holiday, holiday: Halloween}
     sort_title: '!!B'
     plex_search:
+           validate: false
            any:
               title: halloween
               collection: halloween
@@ -128,6 +129,7 @@ collections:
     sort_title: '!!B'
     template: {name: Holiday, holiday: Christmas}
     plex_search:
+           validate: false
            any:
               title: christmas
               collection: christmas
