@@ -2,7 +2,7 @@
 #                  Metadata Edits                    #
 ######################################################
 metadata:
-  99 pieces:
+  99 Pieces:
     content_rating: R
   Curious George Swings Into Spring:
     content_rating: G
@@ -17,4 +17,82 @@ metadata:
   Katt Williams Live:
     content_rating: R
   "Norm of the North: Family Vacation":
+    content_rating: PG
+  Red Obsession:
+    content_rating: PG-13
+  "Scooby-Doo: Return to Zombie Island":
+    content_rating: G
+  "Tupac Assassination: Conspiracy or Revenge":
+    content_rating: R
+  Where God Left His Shoes:
+    content_rating: R
+  "You're Not Elected, Charlie Brown":
+    content_rating: G
+  "DC Super Hero Girls: Hero of the Year":
+    content_rating: PG
+  "Dora's Christmas Carol Adventure":
+    content_rating: G
+  The Escapist:
+    content_rating: R
+  A Flintstone Christmas:
+    content_rating: G
+  Hooked Bear:
+    content_rating: G
+  "How the Grinch Stole Christmas!"1:
+    title: How the Grinch Stole Christmas!
+    year: 1966
+    content_rating: G
+  "The Iceman Confesses: Secrets of a Mafia Hitman":
+    content_rating: R
+  In the Bag:
+    content_rating: G
+  "Kevin James: Sweat the Small Stuff":
+    content_rating: R
+  Lie with Me:
+    content_rating: R
+  Miracle on 34th Street:
+    content_rating: PG
+  Old Henry:
+    content_rating: R
+  The Ox-Bow Incident:
+    content_rating: PG-13
+  The Searchers:
+    content_rating: PG-13
+  Sightseers:
+    content_rating: R
+  "Still Waiting...":
+    content_rating: R
+  The Wicked:
+    content_rating: R
+  Fun and Fancy Free:
+    content_rating: G
+  Hondo:
+    content_rating: PG-13
+  "Rosemary's Baby":
+    content_rating: R
+  The Spiral Road:
+    content_rating: R
+  "Ali G: Bling Bling":
+    content_rating: R
+  The Christmas Raccoons:
+    content_rating: G
+  Crash:
+    content_rating: R
+  "Disney's Christmas Favorites":
+    content_rating: G
+  "Faith Rewarded: The Historic Season of the 2004 Boston Red Sox":
+    content_rating: PG
+  "Family Guy Presents: Blue Harvest":
+    content_rating: R
+  The Godfather Saga:
+    content_rating: R
+  "Muscle & Fitness Home Training":
+    content_rating: PG-13
+  Our Town Athens:
+    content_rating: PG
+  Thick as Thieves:
+    content_rating: R
+  Trolls Dance Academy:
+    content_rating: PG
+  Vic the Viking and the Magic Sword:
     content_rating: PG
