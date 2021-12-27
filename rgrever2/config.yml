@@ -5,6 +5,7 @@ libraries:              # Library mappings must have a colon (:) placed after th
         metadata_path:
           - url: https://raw.githubusercontent.com/rgrever2/Plex-Meta-Manager-Configs/master/rgrever2/movies.yml
           - url: https://raw.githubusercontent.com/rgrever2/Plex-Meta-Manager-Configs/master/rgrever2/holidays.yml
+          - url: https://raw.githubusercontent.com/rgrever2/Plex-Meta-Manager-Configs/master/rgrever2/moviesmetadata.yml
         operations:
             mass_genre_update: omdb
             delete_unmanaged_collections: true
