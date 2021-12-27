@@ -9,6 +9,13 @@ libraries:              # Library mappings must have a colon (:) placed after th
             mass_genre_update: omdb
             delete_unmanaged_collections: true
             split_duplicates: false
+    Kids Movies:
+        metadata_path:
+          - url: https://raw.githubusercontent.com/rgrever2/Plex-Meta-Manager-Configs/master/rgrever2/kids.yml
+        operations:
+            mass_genre_update: omdb
+            delete_unmanaged_collections: true
+            split_duplicates: false
     TV Shows:
         metadata_path:
           - file: config/tv.yml
