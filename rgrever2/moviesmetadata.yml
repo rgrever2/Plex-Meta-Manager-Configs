@@ -2,7 +2,7 @@
 #                  Metadata Edits                    #
 ######################################################
 metadata:
-  99 Pieces:
+  "99 Pieces":
     content_rating: R
   Curious George Swings Into Spring:
     content_rating: G
@@ -38,7 +38,7 @@ metadata:
     content_rating: G
   Hooked Bear:
     content_rating: G
-  "How the Grinch Stole Christmas!"1:
+  How the Grinch Stole Christmas!1:
     title: How the Grinch Stole Christmas!
     year: 1966
     content_rating: G
