@@ -30,7 +30,7 @@ settings:                  # Can be individually specified per library as well
     show_unmanaged: true
     show_filtered: false
     show_missing: false
-    save_missing: false
+    save_missing: true
     run_again_delay: 2
     missing_only_released: true
     create_asset_folders: false
