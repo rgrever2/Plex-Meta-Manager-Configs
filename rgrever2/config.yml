@@ -7,9 +7,12 @@ libraries:              # Library mappings must have a colon (:) placed after th
           - url: https://raw.githubusercontent.com/rgrever2/Plex-Meta-Manager-Configs/master/rgrever2/holidays.yml
           - url: https://raw.githubusercontent.com/rgrever2/Plex-Meta-Manager-Configs/master/rgrever2/moviesmetadata.yml
         operations:
-            mass_genre_update: omdb
-            delete_unmanaged_collections: true
+            delete_unmanaged_collections: false
             split_duplicates: false
+            tmdb_collections:
+                template:
+                    tmdb_collection_details: <<collection_id>>
+                    collection_order: release
     Kids Movies:
         metadata_path:
           - url: https://raw.githubusercontent.com/rgrever2/Plex-Meta-Manager-Configs/master/rgrever2/kids.yml
