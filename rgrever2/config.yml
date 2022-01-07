@@ -46,7 +46,7 @@ settings:                  # Can be individually specified per library as well
     ignore_imdb_ids:
 plex:                       # Can be individually specified per library as well
     url: http://192.168.0.201:32400
-    token: LptS-WMbTBESsRpV7JT7
+    token: mxoUvKsD8CDVRx-3U2hS
     timeout: 60
     clean_bundles: false
     empty_trash: false
