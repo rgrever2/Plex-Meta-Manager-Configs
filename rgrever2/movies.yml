@@ -10,6 +10,7 @@
 templates:
     Genre:
         plex_search:
+          validate: false
           genre: <<genre>>
         url_poster: <<poster>>
         sort_title: +_<<collection_name>>
