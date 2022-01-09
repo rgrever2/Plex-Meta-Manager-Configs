@@ -110,17 +110,15 @@ collections:
       - https://www.imdb.com/list/ls023118929/
       - https://www.imdb.com/list/ls000099714/
     tmdb_collection:
-      - 91361    # Halloween Collection
-      - 8581     # A Nightmare on Elm Street Collection
       - 1733     # The Mummy Collection
-      - 8091     # Alien Collection
-    tmdb_movie:
-      - 23437    # A Nightmare on Elm Street (2010)    
+    #tmdb_movie:
     trakt_list:
       - https://trakt.tv/users/kairbear08/lists/halloween
       - https://trakt.tv/users/mybicycle/lists/halloween
       - https://trakt.tv/users/jayinftl/lists/halloween
-      - https://trakt.tv/users/roswellgeek/lists/halloween
+      - https://trakt.tv/users/outspoken/lists/halloween-with-kids
+      - https://trakt.tv/users/dechevigny/lists/kids-halloween
+      - https://trakt.tv/users/jaytatro11/lists/kids-halloween-favorites?display=movie
     summary: Halloween film is a genre that revolves around the plot involving Halloween.
 ###########################
 #   Studio Collections    #
