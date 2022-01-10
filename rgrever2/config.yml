@@ -20,7 +20,7 @@ libraries:              # Library mappings must have a colon (:) placed after th
             split_duplicates: false
     TV Shows:
         metadata_path:
-          - file: config/tv.yml
+          - url: https://raw.githubusercontent.com/rgrever2/Plex-Meta-Manager-Configs/master/rgrever2/tv.yml
 settings:                  # Can be individually specified per library as well
     cache: true
     cache_expiration: 60
