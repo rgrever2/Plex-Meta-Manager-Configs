@@ -22,7 +22,7 @@ libraries:              # Library mappings must have a colon (:) placed after th
         metadata_path:
           - url: https://raw.githubusercontent.com/rgrever2/Plex-Meta-Manager-Configs/master/rgrever2/tv.yml
 playlist_files:
-  - file: config/playlists.yml
+  - url: https://raw.githubusercontent.com/rgrever2/Plex-Meta-Manager-Configs/master/rgrever2/playlists.yml
 settings:                  # Can be individually specified per library as well
     cache: true
     cache_expiration: 60
