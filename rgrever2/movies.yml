@@ -344,6 +344,7 @@ collections:
     template: { name: Chart, num: 5 }
     imdb_list: https://www.imdb.com/list/ls009487211/?sort=moviemeter,asc&st_dt=&mode=simple&page=1&ref_=ttls_vw_smp
     summary: Best Picture Oscar Nominees sorted by audience rating
+    poster: https://theposterdb.com/api/assets/10084
   Best of 2014:
     template: { name: Best of, year: 2014 }
   Best of 2019:
