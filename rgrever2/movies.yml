@@ -328,9 +328,11 @@ collections:
 ###########################
 #     Trakt Trending      #
 ###########################
-  Trakt Trending:
-    trakt_trending: 50
-    sort_title: ++++++++++_Trakt Trending
+  Trending:
+    trakt_trending: 20
+    tmdb_trending_weekly: 20
+    tmdb_trending_daily: 10
+    sort_title: ++++++++++_Trending
     collection_order: custom
 ######################################################
 #                Chart Collections                   #
