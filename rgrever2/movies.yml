@@ -330,10 +330,9 @@ collections:
 ###########################
   Trending:
     trakt_trending: 20
-    tmdb_trending_weekly: 20
-    tmdb_trending_daily: 10
     sort_title: ++++++++++_Trending
     collection_order: custom
+    sync_mode: sync
 ######################################################
 #                Chart Collections                   #
 ######################################################
