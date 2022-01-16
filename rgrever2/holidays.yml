@@ -22,13 +22,22 @@ collections:
       - https://trakt.tv/users/galacticboy/lists/new-years
       - https://trakt.tv/users/galacticboy/lists/nye-sync
       
+  Civil Rights Day Movies:
+    template: {name: Holiday, holiday: "Civil Rights Day"}
+    #trakt_list:
+    #
+    imdb_list:
+      - https://www.imdb.com/list/ls023675920/
+      - https://www.imdb.com/list/ls031936443/
+    schedule: range((01/14-01/17)
+      
   Celebrating Black Cinema:
     template: {name: Holiday, holiday: "Black History Month"}
     trakt_list:
       - https://trakt.tv/users/galacticboy/lists/essential-black-movies
     # imdb_list:
     summary: Movies about or by the people of the African Diaspora.
-    schedule: yearly(02/01) #2/1 - 3/1
+    schedule: range(02/01-02/28)
 
   Valentine's Day Movies:
     schedule: range(02/01-02/15)
@@ -55,7 +64,7 @@ collections:
     trakt_list:
       - https://trakt.tv/users/galacticboy/lists/easter-movies
     summary:  A mix of Easter themed movies and just movies that are fun to watch around Easter.
-    schedule: yearly(03/20) #3/20 - 4/26
+    schedule: range(03/20-04/26)
 
   Celebrating Mom:
     template: {name: Holiday, holiday: "Mother's Day"}
@@ -64,7 +73,7 @@ collections:
     imdb_list:
       - https://www.imdb.com/list/ls072551197/
     summary: A mix of Motherhood themed movies and just movies that are fun to watch around Mothers Day. 
-    schedule: yearly(05/01) #5/1 - 5/17
+    schedule: range(05/01-5/17)
   
   Celebrating Memorial Day:
     template: {name: Holiday, holiday: "Memorial Day"}
