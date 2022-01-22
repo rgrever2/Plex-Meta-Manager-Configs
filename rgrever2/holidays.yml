@@ -29,7 +29,7 @@ collections:
     imdb_list:
       - https://www.imdb.com/list/ls023675920/
       - https://www.imdb.com/list/ls031936443/
-    schedule: range((01/14-01/17)
+    schedule: range(01/14-01/17)
       
   Celebrating Black Cinema:
     template: {name: Holiday, holiday: "Black History Month"}
