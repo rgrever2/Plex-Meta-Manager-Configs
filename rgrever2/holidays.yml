@@ -35,12 +35,13 @@ collections:
     template: {name: Holiday, holiday: "Black History Month"}
     trakt_list:
       - https://trakt.tv/users/galacticboy/lists/essential-black-movies
-    # imdb_list:
+    imdb_list:
+      - https://www.imdb.com/list/ls080026112/
     summary: Movies about or by the people of the African Diaspora.
     schedule: range(02/01-02/28)
 
   Valentine's Day Movies:
-    schedule: range(02/01-02/15)
+    schedule: range(02/04-02/15)
     template: {name: Holiday, holiday: "Valentine's Day"}
     imdb_list:
       - https://www.imdb.com/list/ls000094398/
