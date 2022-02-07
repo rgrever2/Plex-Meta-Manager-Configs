@@ -167,6 +167,8 @@ collections:
     template: {name: Person, person: 206}
   John Candy:
     template: {name: Person, person: 7180}
+  John Cusack:
+    template: {name: Person, person: 3036}
   John Krasinski:
     template: {name: Person, person: 17697}
   John Travolta:
