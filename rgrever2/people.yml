@@ -9,7 +9,7 @@ templates:
         director: tmdb
         writer: tmdb
         producer: tmdb
-      sort_by: random
+      sort_by: audience_rating.desc
       validate: false
     tmdb_person: <<person>>
     sort_title: +4_<<collection_name>>
