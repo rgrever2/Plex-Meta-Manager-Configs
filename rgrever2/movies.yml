@@ -326,7 +326,7 @@ collections:
   2020's Movies:
     template: {name: Decade, year: 2020, poster: https://imgur.com/g4jPyvm}
 ###########################
-#     Trakt Trending      #
+#        Trending         #
 ###########################
   Trending:
     template: { name: Chart, num: 2 }
@@ -342,6 +342,17 @@ collections:
     imdb_list: https://www.imdb.com/search/title/?groups=top_250&count=250/
     tmdb_top_rated: 250
     summary: Top Rated Movies across the internet sorted by popularity
+  Plex Popular:
+    template: { name: Chart, num: 1 }
+    tautulli_popular:
+      list_days: 30
+      list_size: 20
+      list_buffer: 20
+    tautulli_watched:
+      list_days: 30
+      list_size: 20
+      list_buffer: 20
+    summary: Movies Popular on Plex
   Best Picture Nominees:
     template: { name: Chart, num: 5 }
     imdb_list: https://www.imdb.com/list/ls009487211/?sort=moviemeter,asc&st_dt=&mode=simple&page=1&ref_=ttls_vw_smp
