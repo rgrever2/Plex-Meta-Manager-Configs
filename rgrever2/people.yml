@@ -22,6 +22,8 @@ collections:
     template: {name: Person, person: 2636}
   Amy Adams:
     template: {name: Person, person: 9273}
+  Andy Samberg:
+    template: {name: Person, person: 62861}
   Angelina Jolie:
     template: {name: Person, person: 11701}
   Anne Hathaway:
@@ -40,6 +42,8 @@ collections:
     template: {name: Person, person: 71580}
   Bill Murray:
     template: {name: Person, person: 1532}
+  Bill Pullman:
+    template: {name: Person, person: 8984}
   Brad Pitt:
     template: {name: Person, person: 287}
   Brendan Fraser:
