@@ -181,6 +181,8 @@ collections:
     template: {name: Person, person: 4165}
   Johnny Depp:
     template: {name: Person, person: 85}
+  Jon Favreau:
+    template: {name: Person, person: 15277}
   Jonah Hill:
     template: {name: Person, person: 21007}
   Julia Roberts:
