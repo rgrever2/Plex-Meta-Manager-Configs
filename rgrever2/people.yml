@@ -269,6 +269,8 @@ collections:
     template: {name: Person, person: 6159}
   Rosario Dawson:
     template: {name: Person, person: 5916}
+  Ryan Bingham:
+    template: {name: Person, person: 1674161}
   Ryan Reynolds:
     template: {name: Person, person: 10859}
   Sam Raimi:
