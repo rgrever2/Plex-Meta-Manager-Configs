@@ -329,10 +329,11 @@ collections:
 #     Trakt Trending      #
 ###########################
   Trending:
-    trakt_trending: 20
-    sort_title: ++++++++++_Trending
-    collection_order: custom
-    sync_mode: sync
+    template: { name: Chart, num: 2 }
+    trakt_trending: 10
+    tmdb_trending_daily: 10
+    tmdb_trending_weekly: 10
+    summary: Movies Trending across the internet
 ######################################################
 #                Chart Collections                   #
 ######################################################
