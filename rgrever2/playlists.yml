@@ -5,6 +5,12 @@ playlists:
     libraries: Movies, TV Shows
     trakt_list: https://trakt.tv/users/username57/lists/marvel-cinematic-universe-mcu-timeline
     summary: Marvel Cinematic Universe In Order
+  Star Wars Universe:
+    sync_to_users: all
+    sync_mode: sync
+    libraries: Movies, TV Shows
+    imdb_list: https://www.imdb.com/list/ls091133073/
+    summary: Star Wars Universe in Chronological Order
 #  Star Wars Clone Wars Chronological Order:
 #    sync_to_users: all
 #    sync_mode: sync
