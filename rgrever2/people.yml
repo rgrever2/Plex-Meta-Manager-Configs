@@ -20,6 +20,8 @@ collections:
     template: {name: Person, person: 1158}
   Alfred Hitchcock:
     template: {name: Person, person: 2636}
+  Alicia Silverstone:
+    template: {name: Person, person: 588}
   Amy Adams:
     template: {name: Person, person: 9273}
   Andy Samberg:
@@ -46,6 +48,8 @@ collections:
     template: {name: Person, person: 8984}
   Brad Pitt:
     template: {name: Person, person: 287}
+  Bradley Cooper:
+    template: {name: Person, person: 51329}
   Brendan Fraser:
     template: {name: Person, person: 18269}
   Bruce Lee:
@@ -66,8 +70,6 @@ collections:
     template: {name: Person, person: 13848}
   Charlize Theron:
     template: {name: Person, person: 6885}
-  Christian Bale:
-    template: {name: Person, person: 3894}
   Chris Evans:
     template: {name: Person, person: 16828}
   Chris Hemsworth:
@@ -76,6 +78,10 @@ collections:
     template: {name: Person, person: 73457}
   Chris Rock:
     template: {name: Person, person: 2632}
+  Christian Bale:
+    template: {name: Person, person: 3894}
+  Christina Ricci:
+    template: {name: Person, person: 6886}
   Christopher Nolan:
     template: {name: Person, person: 525}
   Christopher Walken:
@@ -89,6 +95,10 @@ collections:
     summary: "Joel Coen and Ethan Coen, collectively referred to as the Coen Brothers, are American film directors, producers, screenwriters, and editors. Their films span many genres and styles, which they frequently subvert or parody. Their most acclaimed works include: Raising Arizona (1987), Miller's Crossing (1990), Fargo (1996), The Big Lebowski (1998), O Brother, Where Art Thou? (2000), No Country for Old Men (2007), Burn After Reading (2008), A Serious Man (2009), True Grit (2010), Inside Llewyn Davis (2013), and The Ballad of Buster Scruggs (2018)."
   Daniel Craig:
     template: {name: Person, person: 8784}
+  Daniel Radcliffe:
+    template: {name: Person, person: 10980}
+  Danny DeVito:
+    template: {name: Person, person: 518}
   Dave Bautista:
     template: {name: Person, person: 543530}
   Dave Chappelle:
@@ -129,6 +139,8 @@ collections:
     template: {name: Person, person: 3}
   Hayao Miyazaki:
     template: {name: Person, person: 608}
+  Heath Ledger:
+    template: {name: Person, person: 1810}
   Hugh Jackman:
     template: {name: Person, person: 6968}
   Ian McKellen:
@@ -137,6 +149,8 @@ collections:
     template: {name: Person, person: 9778}
   J.J. Abrams:
     template: {name: Person, person: 15344}
+  J.K. Simmons:
+    template: {name: Person, person: 18999}
   Jack Black:
     template: {name: Person, person: 70851}
   Jackie Chan:
@@ -145,6 +159,8 @@ collections:
     template: {name: Person, person: 2710}
   James Franco:
     template: {name: Person, person: 17051}
+  James McAvoy:
+    template: {name: Person, person: 5530}
   Jamie Foxx:
     template: {name: Person, person: 134}
   Jason Bateman:
@@ -253,6 +269,8 @@ collections:
     template: {name: Person, person: 22226}
   Quentin Tarantino:
     template: {name: Person, person: 138}
+  Rami Malek:
+    template: {name: Person, person: 17838}
   Reese Witherspoon:
     template: {name: Person, person: 368}
   Ridley Scott:
@@ -271,6 +289,8 @@ collections:
     template: {name: Person, person: 6159}
   Rosario Dawson:
     template: {name: Person, person: 5916}
+  Russell Crowe:
+    template: {name: Person, person: 934}
   Ryan Bingham:
     template: {name: Person, person: 1674161}
   Ryan Reynolds:
