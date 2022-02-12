@@ -330,9 +330,9 @@ collections:
 ###########################
   Trending:
     template: { name: Chart, num: 2 }
-    trakt_trending: 10
-    tmdb_trending_daily: 10
-    tmdb_trending_weekly: 10
+    trakt_trending: 20
+    tmdb_trending_daily: 20
+    tmdb_trending_weekly: 20
     summary: Movies Trending across the internet
 ######################################################
 #                Chart Collections                   #
