@@ -30,6 +30,8 @@ collections:
     template: {name: Person, person: 11701}
   Anne Hathaway:
     template: {name: Person, person: 1813}
+  Annette Bening:
+    template: {name: Person, person: 516}
   Anthony Hopkins:
     template: {name: Person, person: 4173}
   Antonio Banderas:
@@ -99,14 +101,16 @@ collections:
     template: {name: Person, person: 10980}
   Danny DeVito:
     template: {name: Person, person: 518}
-  Dave Bautista:
-    template: {name: Person, person: 543530}
+  #Dave Bautista:
+  #  template: {name: Person, person: 543530}
   Dave Chappelle:
     template: {name: Person, person: 4169}
   Denzel Washington:
     template: {name: Person, person: 5292}
-  Diane Keaton:
-    template: {name: Person, person: 3092}
+  #Diane Keaton:
+  #  template: {name: Person, person: 3092}
+  Djimon Hounsou:
+    template: {name: Person, person: 938}
   Don Cheadle:
     template: {name: Person, person: 1896}
   Dustin Hoffman:
@@ -123,16 +127,24 @@ collections:
     template: {name: Person, person: 54693}
   Emma Watson:
     template: {name: Person, person: 10990}
-  Ewan McGregor:
-    template: {name: Person, person: 3061}
+  Erika Christensen:
+    template: {name: Person, person: 21711}
+  #Ewan McGregor:
+  #  template: {name: Person, person: 3061}
   Francis Ford Coppola:
     template: {name: Person, person: 1776}
+  Gary Busey:
+    template: {name: Person, person: 2048}
+  Gene Hackman:
+    template: {name: Person, person: 193}
   George Clooney:
     template: {name: Person, person: 1461}
   George Lucas:
     template: {name: Person, person: 1}
   Gerard Butler:
     template: {name: Person, person: 17276}
+  Haley Joel Osment:
+    template: {name: Person, person: 9640}
   Harold Ramis:
     template: {name: Person, person: 1524}
   Harrison Ford:
@@ -141,6 +153,8 @@ collections:
     template: {name: Person, person: 608}
   Heath Ledger:
     template: {name: Person, person: 1810}
+  Helen Hunt:
+    template: {name: Person, person: 9994}
   Hugh Jackman:
     template: {name: Person, person: 6968}
   Ian McKellen:
@@ -201,6 +215,8 @@ collections:
     template: {name: Person, person: 15277}
   Jonah Hill:
     template: {name: Person, person: 21007}
+  Josh Gad:
+    template: {name: Person, person: 54415}
   Julia Roberts:
     template: {name: Person, person: 1204}
   Kevin Bacon:
@@ -209,18 +225,20 @@ collections:
     template: {name: Person, person: 1269}
   Kevin Hart:
     template: {name: Person, person: 55638}
-  Kevin Smith:
-    template: {name: Person, person: 19303}
+  #Kevin Smith:
+  #  template: {name: Person, person: 19303}
   Kristen Bell:
     template: {name: Person, person: 40462}
   Leonardo DiCaprio:
     template: {name: Person, person: 6193}
   Liam Neeson:
     template: {name: Person, person: 3896}
-  Lucy Liu:
-    template: {name: Person, person: 140}
+  #Lucy Liu:
+  #  template: {name: Person, person: 140}
   M. Night Shyamalan:
     template: {name: Person, person: 11614}
+  Mahershala Ali:
+    template: {name: Person, person: 932967}
   Mark Wahlberg:
     template: {name: Person, person: 13240}
   Martin Scorsese:
@@ -229,8 +247,10 @@ collections:
     template: {name: Person, person: 1892}
   Matthew McConaughey:
     template: {name: Person, person: 10297}
-  Megan Fox:
-    template: {name: Person, person: 19537}
+  Meg Ryan:
+    template: {name: Person, person: 5344}
+  #Megan Fox:
+  #  template: {name: Person, person: 19537}
   Mel Brooks:
     template: {name: Person, person: 14639}
   Mel Gibson:
@@ -255,6 +275,8 @@ collections:
     template: {name: Person, person: 192}
   Natalie Portman:
     template: {name: Person, person: 524}
+  Nick Kroll:
+    template: {name: Person, person: 208519}
   Nicolas Cage:
     template: {name: Person, person: 2963}
   Nicole Kidman:
@@ -311,6 +333,8 @@ collections:
     template: {name: Person, person: 19274}
   Shia LaBeouf:
     template: {name: Person, person: 10959}
+  Sigourney Weaver:
+    template: {name: Person, person: 10205}
   Steve Buscemi:
     template: {name: Person, person: 884}
   Steve Carell:
@@ -333,6 +357,10 @@ collections:
     template: {name: Person, person: 1136406}
   Tommy Lee Jones:
     template: {name: Person, person: 2176}
+  Tupac Shakur:
+    template: {name: Person, person: 54422}
+  Val Kilmer:
+    template: {name: Person, person: 5576}
   Vin Diesel:
     template: {name: Person, person: 12835}
   Vince Vaughn:
