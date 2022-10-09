@@ -305,26 +305,26 @@ collections:
 ###########################
 #    Decade Collections   #
 ###########################
-  1930's Movies:
-    template: {name: Decade, year: 1930, poster: https://theposterdb.com/api/assets/105675}
-  1940's Movies:
-    template: {name: Decade, year: 1940, poster: https://theposterdb.com/api/assets/105676}
-  1950's Movies: 
-    template: {name: Decade, year: 1950, poster: https://theposterdb.com/api/assets/105677}
-  1960's Movies:
-    template: {name: Decade, year: 1960, poster: https://theposterdb.com/api/assets/105331}
-  1970's Movies:
-    template: {name: Decade, year: 1970, poster: https://theposterdb.com/api/assets/105332}
+#  1930's Movies:
+#    template: {name: Decade, year: 1930, poster: https://theposterdb.com/api/assets/105675}
+#  1940's Movies:
+#    template: {name: Decade, year: 1940, poster: https://theposterdb.com/api/assets/105676}
+#  1950's Movies: 
+#    template: {name: Decade, year: 1950, poster: https://theposterdb.com/api/assets/105677}
+#  1960's Movies:
+#    template: {name: Decade, year: 1960, poster: https://theposterdb.com/api/assets/105331}
+#  1970's Movies:
+#    template: {name: Decade, year: 1970, poster: https://theposterdb.com/api/assets/105332}
   1980's Movies:
     template: {name: Decade, year: 1980, poster: https://theposterdb.com/api/assets/105333}
   1990's Movies:
     template: {name: Decade, year: 1990, poster: https://theposterdb.com/api/assets/105334}
-  2000's Movies:
-    template: {name: Decade, year: 2000, poster: https://imgur.com/L9NotNh}
-  2010's Movies:
-    template: {name: Decade, year: 2010, poster: https://imgur.com/vgF2lcl}
-  2020's Movies:
-    template: {name: Decade, year: 2020, poster: https://imgur.com/g4jPyvm}
+#  2000's Movies:
+#    template: {name: Decade, year: 2000, poster: https://imgur.com/L9NotNh}
+#  2010's Movies:
+#    template: {name: Decade, year: 2010, poster: https://imgur.com/vgF2lcl}
+#  2020's Movies:
+#    template: {name: Decade, year: 2020, poster: https://imgur.com/g4jPyvm}
 ###########################
 #        Trending         #
 ###########################
@@ -358,10 +358,10 @@ collections:
     imdb_list: https://www.imdb.com/list/ls009487211/?sort=moviemeter,asc&st_dt=&mode=simple&page=1&ref_=ttls_vw_smp
     summary: Best Picture Oscar Nominees sorted by audience rating
     url_poster: https://theposterdb.com/api/assets/10084
-  Best of 2019:
-    template: { name: Best of, year: 2019 }
-  Best of 2020:
-    template: { name: Best of, year: 2020 }
-  Best of 2021:
-    template: { name: Best of, year: 2021 }
+ # Best of 2019:
+ #   template: { name: Best of, year: 2019 }
+ # Best of 2020:
+ #   template: { name: Best of, year: 2020 }
+  #Best of 2021:
+   # template: { name: Best of, year: 2021 }
 
